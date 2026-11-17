@@ -53,9 +53,9 @@ def grafico_matrizes(resultados, tag, classes):
     salvar_figura(tag + "_matrizes_confusao")
 
 def grafico_arvore(modelo, colunas, tag, classes):
-    plt.figure(figsize=(11, 4.2), dpi=150)
-    plot_tree(modelo, max_depth=2, feature_names=list(colunas), class_names=classes,
-              filled=True, rounded=True, impurity=True, proportion=True, fontsize=6)
+    plt.figure(figsize=(7.5, 3.6), dpi=150)
+    plot_tree(modelo, max_depth=1, feature_names=list(colunas), class_names=classes,
+              filled=True, rounded=True, impurity=True, proportion=True, fontsize=9)
     salvar_figura(tag + "_arvore")
 
 def grafico_profundidade(curva, melhor_prof, tag):
