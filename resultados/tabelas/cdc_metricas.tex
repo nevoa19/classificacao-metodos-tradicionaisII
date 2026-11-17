@@ -1,0 +1,19 @@
+\begin{table}[!t]
+\centering
+\caption{CDC Diabetes: métricas no treino e no teste (classe positiva: com diabetes).}
+\label{tab:cdc_metricas}
+\begin{tabular}{llcccc}
+\hline
+Modelo & Conjunto & Acur. & Prec. & Rev. & F1 \\
+\hline
+Trivial (classe majoritária) & treino & 0,861 & 0,000 & 0,000 & 0,000 \\
+ & teste & 0,861 & 0,000 & 0,000 & 0,000 \\
+Árvore de decisão & treino & 0,715 & 0,301 & 0,794 & 0,437 \\
+ & teste & 0,709 & 0,294 & 0,777 & 0,427 \\
+Floresta aleatória & treino & 0,808 & 0,414 & 0,906 & 0,568 \\
+ & teste & 0,757 & 0,330 & 0,722 & 0,453 \\
+XGBoost & treino & 0,746 & 0,335 & 0,832 & 0,477 \\
+ & teste & 0,731 & 0,312 & 0,774 & 0,445 \\
+\hline
+\end{tabular}
+\end{table}

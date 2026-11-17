@@ -1,0 +1,14 @@
+\begin{table}[!t]
+\centering
+\caption{Evasão de estudantes: IC 95\% do F1 (bootstrap, 1000 reamostragens), teste de McNemar contra o melhor modelo (XGBoost) e tempos de treino (busca de hiperparâmetros e um ajuste com os melhores valores no treino inteiro).}
+\label{tab:estudantes_sig}
+\begin{tabular}{lcccc}
+\hline
+Modelo & IC 95\% do F1 & $p$ McNemar & Busca (s) & Ajuste (s) \\
+\hline
+Árvore de decisão & [0,730; 0,805] & 0,0009 & 0,4 & 0,01 \\
+Floresta aleatória & [0,774; 0,845] & 0,4421 & 38,9 & 0,83 \\
+XGBoost & [0,782; 0,852] & -- & 34,9 & 0,18 \\
+\hline
+\end{tabular}
+\end{table}

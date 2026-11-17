@@ -1,0 +1,94 @@
+|--- HighBP <= 0.50
+|   |--- GenHlth <= 2.50
+|   |   |--- Age <= 8.50
+|   |   |   |--- BMI <= 27.50
+|   |   |   |   |--- HighChol <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- HighChol >  0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- BMI >  27.50
+|   |   |   |   |--- Age <= 5.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- Age >  5.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- Age >  8.50
+|   |   |   |--- BMI <= 27.50
+|   |   |   |   |--- GenHlth <= 1.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- GenHlth >  1.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- BMI >  27.50
+|   |   |   |   |--- GenHlth <= 1.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- GenHlth >  1.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |--- GenHlth >  2.50
+|   |   |--- Age <= 4.50
+|   |   |   |--- GenHlth <= 3.50
+|   |   |   |   |--- BMI <= 38.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- BMI >  38.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- GenHlth >  3.50
+|   |   |   |   |--- HighChol <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- HighChol >  0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- Age >  4.50
+|   |   |   |--- BMI <= 27.50
+|   |   |   |   |--- HighChol <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- HighChol >  0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- BMI >  27.50
+|   |   |   |   |--- GenHlth <= 3.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- GenHlth >  3.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|--- HighBP >  0.50
+|   |--- GenHlth <= 2.50
+|   |   |--- BMI <= 29.50
+|   |   |   |--- Age <= 8.50
+|   |   |   |   |--- HighChol <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- HighChol >  0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- Age >  8.50
+|   |   |   |   |--- BMI <= 24.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- BMI >  24.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- BMI >  29.50
+|   |   |   |--- Age <= 8.50
+|   |   |   |   |--- HighChol <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- HighChol >  0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- Age >  8.50
+|   |   |   |   |--- HighChol <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- HighChol >  0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |--- GenHlth >  2.50
+|   |   |--- BMI <= 28.50
+|   |   |   |--- HighChol <= 0.50
+|   |   |   |   |--- Age <= 6.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- Age >  6.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- HighChol >  0.50
+|   |   |   |   |--- GenHlth <= 3.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- GenHlth >  3.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- BMI >  28.50
+|   |   |   |--- GenHlth <= 3.50
+|   |   |   |   |--- Age <= 6.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- Age >  6.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- GenHlth >  3.50
+|   |   |   |   |--- HighChol <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- HighChol >  0.50
+|   |   |   |   |   |--- truncated branch of depth 4

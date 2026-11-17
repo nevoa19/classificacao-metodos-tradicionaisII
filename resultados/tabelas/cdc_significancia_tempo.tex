@@ -1,0 +1,14 @@
+\begin{table}[!t]
+\centering
+\caption{CDC Diabetes: IC 95\% do F1 (bootstrap, 1000 reamostragens), teste de McNemar contra o melhor modelo (Floresta aleatória) e tempos de treino (busca de hiperparâmetros e um ajuste com os melhores valores no treino inteiro).}
+\label{tab:cdc_sig}
+\begin{tabular}{lcccc}
+\hline
+Modelo & IC 95\% do F1 & $p$ McNemar & Busca (s) & Ajuste (s) \\
+\hline
+Árvore de decisão & [0,419; 0,434] & $<10^{-4}$ & 8,8 & 0,40 \\
+Floresta aleatória & [0,445; 0,461] & -- & 30,7 & 5,50 \\
+XGBoost & [0,437; 0,452] & $<10^{-4}$ & 33,3 & 4,23 \\
+\hline
+\end{tabular}
+\end{table}

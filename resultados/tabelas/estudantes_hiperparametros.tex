@@ -1,0 +1,14 @@
+\begin{table}[!t]
+\centering
+\caption{Evasão de estudantes: hiperparâmetros escolhidos e F1 médio na validação cruzada.}
+\label{tab:estudantes_hiper}
+\begin{tabular}{llc}
+\hline
+Modelo & Hiperparâmetros & F1 (VC) \\
+\hline
+Árvore de decisão & criterion=gini, max\_depth=4 & 0,761 \\
+Floresta aleatória & n\_estimators=500, min\_samples\_leaf=5, max\_features=0,50, max\_depth=15 & 0,786 \\
+XGBoost & subsample=1,00, n\_estimators=200, max\_depth=8, learning\_rate=0,03 & 0,792 \\
+\hline
+\end{tabular}
+\end{table}

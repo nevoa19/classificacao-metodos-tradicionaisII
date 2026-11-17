@@ -1,0 +1,46 @@
+|--- Curricular units 2nd sem (approved) <= 3.50
+|   |--- Curricular units 2nd sem (approved) <= 1.50
+|   |   |--- Curricular units 1st sem (enrolled) <= 0.50
+|   |   |   |--- Tuition fees up to date <= 0.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- Tuition fees up to date >  0.50
+|   |   |   |   |--- class: 0
+|   |   |--- Curricular units 1st sem (enrolled) >  0.50
+|   |   |   |--- Mother's occupation <= 17.00
+|   |   |   |   |--- class: 1
+|   |   |   |--- Mother's occupation >  17.00
+|   |   |   |   |--- class: 0
+|   |--- Curricular units 2nd sem (approved) >  1.50
+|   |   |--- Tuition fees up to date <= 0.50
+|   |   |   |--- Age at enrollment <= 43.00
+|   |   |   |   |--- class: 1
+|   |   |   |--- Age at enrollment >  43.00
+|   |   |   |   |--- class: 0
+|   |   |--- Tuition fees up to date >  0.50
+|   |   |   |--- Age at enrollment <= 24.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- Age at enrollment >  24.50
+|   |   |   |   |--- class: 1
+|--- Curricular units 2nd sem (approved) >  3.50
+|   |--- Tuition fees up to date <= 0.50
+|   |   |--- Curricular units 2nd sem (grade) <= 12.94
+|   |   |   |--- Nacionality <= 8.00
+|   |   |   |   |--- class: 1
+|   |   |   |--- Nacionality >  8.00
+|   |   |   |   |--- class: 0
+|   |   |--- Curricular units 2nd sem (grade) >  12.94
+|   |   |   |--- Debtor <= 0.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- Debtor >  0.50
+|   |   |   |   |--- class: 1
+|   |--- Tuition fees up to date >  0.50
+|   |   |--- Curricular units 2nd sem (approved) <= 5.50
+|   |   |   |--- Curricular units 2nd sem (credited) <= 2.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- Curricular units 2nd sem (credited) >  2.50
+|   |   |   |   |--- class: 1
+|   |   |--- Curricular units 2nd sem (approved) >  5.50
+|   |   |   |--- Curricular units 1st sem (evaluations) <= 14.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- Curricular units 1st sem (evaluations) >  14.50
+|   |   |   |   |--- class: 0

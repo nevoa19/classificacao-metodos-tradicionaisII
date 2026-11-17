@@ -1,0 +1,19 @@
+\begin{table}[!t]
+\centering
+\caption{Evasão de estudantes: métricas no treino e no teste (classe positiva: evasão).}
+\label{tab:estudantes_metricas}
+\begin{tabular}{llcccc}
+\hline
+Modelo & Conjunto & Acur. & Prec. & Rev. & F1 \\
+\hline
+Trivial (classe majoritária) & treino & 0,679 & 0,000 & 0,000 & 0,000 \\
+ & teste & 0,679 & 0,000 & 0,000 & 0,000 \\
+Árvore de decisão & treino & 0,852 & 0,764 & 0,778 & 0,771 \\
+ & teste & 0,853 & 0,773 & 0,768 & 0,770 \\
+Floresta aleatória & treino & 0,941 & 0,888 & 0,933 & 0,910 \\
+ & teste & 0,878 & 0,808 & 0,813 & 0,811 \\
+XGBoost & treino & 0,980 & 0,969 & 0,968 & 0,969 \\
+ & teste & 0,884 & 0,822 & 0,813 & 0,818 \\
+\hline
+\end{tabular}
+\end{table}

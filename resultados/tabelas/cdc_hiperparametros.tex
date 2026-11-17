@@ -1,0 +1,14 @@
+\begin{table}[!t]
+\centering
+\caption{CDC Diabetes: hiperparâmetros escolhidos e F1 médio na validação cruzada.}
+\label{tab:cdc_hiper}
+\begin{tabular}{llc}
+\hline
+Modelo & Hiperparâmetros & F1 (VC) \\
+\hline
+Árvore de decisão & criterion=entropy, max\_depth=8 & 0,430 \\
+Floresta aleatória & n\_estimators=200, min\_samples\_leaf=5, max\_features=sqrt, max\_depth=None & 0,455 \\
+XGBoost & subsample=0,60, n\_estimators=800, max\_depth=8, learning\_rate=0,01 & 0,448 \\
+\hline
+\end{tabular}
+\end{table}
